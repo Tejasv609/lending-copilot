@@ -1,0 +1,44 @@
+# Lending Copilot configuration.
+# Every value can be overridden with an env var: LENDING_<SECTION>_<FIELD>
+# e.g. LENDING_LLM_MODEL=gpt-4o-mini, LENDING_RETRIEVAL_TOP_K=8
+
+app:
+  host: "0.0.0.0"
+  port: 8000
+
+llm:
+  # Any OpenAI-compatible endpoint:
+  #   OpenAI:      https://api.openai.com/v1            model=gpt-4o-mini
+  #   Ollama:      http://localhost:11434/v1           model=llama3.1
+  #   vLLM:        http://localhost:8001/v1             model=<served-model>
+  # Leave api_key empty to run in extractive (no-LLM) answer mode.
+  base_url: "http://localhost:11434/v1"
+  api_key: ""
+  model: "llama3.1"
+  temperature: 0.1
+  max_tokens: 512
+
+retrieval:
+  chunk_size: 500
+  chunk_overlap: 100
+  top_k: 5
+  rrf_k: 60
+  dense_weight: 0.6
+  sparse_weight: 0.4
+  rerank: true
+  rerank_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  rerank_top_n: 10
+  score_threshold: 4.0        # min top BM25 score; below this -> "no relevant context".
+                                # BM25 idf-weighting downranks pure stopword overlap, so this fires only
+                                # when the corpus shares no substantive vocabulary with the question.
+                                # Tune to your corpus (scales with corpus size / query length).
+  dense_threshold: 0.3          # min top dense cosine similarity; backstop for tiny corpora
+                                # (BM25 idf is meaningless with 1-2 docs) and paraphrased queries.
+  embed_model: "sentence-transformers/all-MiniLM-L6-v2"
+  embed_backend: "sentence_transformers"  # or "hash" (fast, deterministic; for tests)
+
+paths:
+  data_dir: "data"
+  sample_docs: "data/sample_docs"
+  uploads: "data/uploads"
+  index_dir: "data/index"
