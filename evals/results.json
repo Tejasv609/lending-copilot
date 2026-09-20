@@ -1,0 +1,148 @@
+{
+  "summary": {
+    "n": 15,
+    "k": 5,
+    "hit_rate@k": 1.0,
+    "mrr": 0.756,
+    "avg_keyword_coverage": 0.978,
+    "citation_rate": 1.0,
+    "llm_mode": "extractive"
+  },
+  "rows": [
+    {
+      "question": "What is the minimum CIBIL score needed to get a personal loan approved?",
+      "expected_doc": "retail_credit_policy",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What interest rate will I get on a personal loan with a CIBIL score of 760?",
+      "expected_doc": "interest_rate_card",
+      "hit@k": true,
+      "rr": 0.5,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What documents are required for KYC before disbursement?",
+      "expected_doc": "kyc_aml_checklist",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 0.667,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "When do field visits start for delinquent accounts?",
+      "expected_doc": "delinquency_collections_playbook",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What does DPD stand for in collections?",
+      "expected_doc": "credit_glossary",
+      "hit@k": true,
+      "rr": 0.333,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What is the maximum DTI allowed for a personal loan?",
+      "expected_doc": "retail_credit_policy",
+      "hit@k": true,
+      "rr": 0.5,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What are the prepayment charges on a personal loan?",
+      "expected_doc": "interest_rate_card",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "How often must KYC be refreshed for high-risk customers?",
+      "expected_doc": "kyc_aml_checklist",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What is the maximum personal loan amount offered?",
+      "expected_doc": "interest_rate_card",
+      "hit@k": true,
+      "rr": 0.5,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What is the turnaround time for a personal loan credit decision?",
+      "expected_doc": "loan_origination_sla",
+      "hit@k": true,
+      "rr": 0.5,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What is a restructuring in the context of delinquent loans?",
+      "expected_doc": "credit_glossary",
+      "hit@k": true,
+      "rr": 0.5,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What is the late payment fee on a loan?",
+      "expected_doc": "interest_rate_card",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What cash transaction threshold triggers AML reporting?",
+      "expected_doc": "kyc_aml_checklist",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "How long is a personal loan sanction letter valid?",
+      "expected_doc": "loan_origination_sla",
+      "hit@k": true,
+      "rr": 1.0,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    },
+    {
+      "question": "What is the minimum acceptable settlement for bucket 3 accounts?",
+      "expected_doc": "delinquency_collections_playbook",
+      "hit@k": true,
+      "rr": 0.5,
+      "keyword_coverage": 1.0,
+      "citations": 5,
+      "used_llm": false
+    }
+  ]
+}
