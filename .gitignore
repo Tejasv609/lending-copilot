@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Indexes / runtime data (rebuilt by ingest)
+data/index/
+data/uploads/*
+!data/uploads/.gitkeep
+*.faiss
+
+# Tests / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
