@@ -1,0 +1,15 @@
+{"question": "What is the minimum CIBIL score needed to get a personal loan approved?", "expected_doc": "retail_credit_policy", "keywords": ["650", "refer", "credit manager"]}
+{"question": "What interest rate will I get on a personal loan with a CIBIL score of 760?", "expected_doc": "interest_rate_card", "keywords": ["11.5%", "13.0%", "750"]}
+{"question": "What documents are required for KYC before disbursement?", "expected_doc": "kyc_aml_checklist", "keywords": ["PAN", "Aadhaar", "address proof"]}
+{"question": "When do field visits start for delinquent accounts?", "expected_doc": "delinquency_collections_playbook", "keywords": ["31 DPD", "field visit", "2,00,000"]}
+{"question": "What does DPD stand for in collections?", "expected_doc": "credit_glossary", "keywords": ["days past due", "overdue"]}
+{"question": "What is the maximum DTI allowed for a personal loan?", "expected_doc": "retail_credit_policy", "keywords": ["50%", "DTI", "net monthly income"]}
+{"question": "What are the prepayment charges on a personal loan?", "expected_doc": "interest_rate_card", "keywords": ["4%", "12 months", "prepaid"]}
+{"question": "How often must KYC be refreshed for high-risk customers?", "expected_doc": "kyc_aml_checklist", "keywords": ["2 years", "high-risk"]}
+{"question": "What is the maximum personal loan amount offered?", "expected_doc": "interest_rate_card", "keywords": ["25,00,000", "50,000"]}
+{"question": "What is the turnaround time for a personal loan credit decision?", "expected_doc": "loan_origination_sla", "keywords": ["24 working hours"]}
+{"question": "What is a restructuring in the context of delinquent loans?", "expected_doc": "credit_glossary", "keywords": ["restructuring", "tenure", "distress"]}
+{"question": "What is the late payment fee on a loan?", "expected_doc": "interest_rate_card", "keywords": ["500", "2%", "overdue EMI"]}
+{"question": "What cash transaction threshold triggers AML reporting?", "expected_doc": "kyc_aml_checklist", "keywords": ["10,00,000", "reported"]}
+{"question": "How long is a personal loan sanction letter valid?", "expected_doc": "loan_origination_sla", "keywords": ["30 days"]}
+{"question": "What is the minimum acceptable settlement for bucket 3 accounts?", "expected_doc": "delinquency_collections_playbook", "keywords": ["60%", "outstanding principal"]}
